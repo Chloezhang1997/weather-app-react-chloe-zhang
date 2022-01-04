@@ -5,11 +5,9 @@ export default function WeatherSearch() {
   const [city, setCity] = useState("");
   const [loaded, setLoaded] = useState(false);
   const [weather, setWeather] = useState({});
-  let [temperature, setTemperature] = useState(null);
+  
   const [message, setMessage] = useState("");
-  function showTemperature(response) {
-    setTemperature(response.data.main.temp);
-  }
+  
 
   function fahrenheitTemperature() {
     let temperature = (weather.temperature * 9) / 5 + 32;
