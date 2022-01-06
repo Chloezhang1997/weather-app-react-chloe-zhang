@@ -23,13 +23,7 @@ function App() {
          
         </a>
       </header>
-    </div>
-  );
-}
-
-export default App;
-
-<footer>
+      <footer>
           This project was coded by{" "}
           <a
             href="https://1l8tt.csb.app/"
@@ -55,3 +49,10 @@ export default App;
             hosted on Netlify
           </a>
         </footer>
+
+    </div>
+  );
+}
+
+export default App;
+
